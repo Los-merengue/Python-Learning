@@ -34,3 +34,18 @@ print(eclipse_dates)
 
 new_str = "The cow jumped over the moon."
 new_str.split(" ",3)
+
+### what would this script produce as a result
+a = [1, 5, 8]
+b = [2, 6, 9, 10]
+c = [100, 200]
+
+print(max([len(a), len(b), len(c)]))
+print(min([len(a), len(b), len(c)]))
+
+#Result 4,2
+
+### What would be the output of this code
+names = ["Carol", "Albert", "Ben", "Donna"]
+print(" & ".join(sorted(names)))
+#Result Carol & Albert & Ben & Donna
