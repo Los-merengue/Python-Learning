@@ -1,3 +1,4 @@
+### Practicing using Functions and method in a string data types
 verse = "If you can keep your head when all about you\n  Are losing theirs and blaming it on you,\nIf you can trust yourself when all men doubt you,\n  But make allowance for their doubting too;\nIf you can wait and not be tired by waiting,\n  Or being lied about, don’t deal in lies,\nOr being hated, don’t give way to hating,\n  And yet don’t look too good, nor talk too wise:"
 print(verse)
 
@@ -6,3 +7,12 @@ print(verse)
 print("The length of the string of the variable verse is {}".format(len(verse)))
 print("The index of the first 'and' can be found in the {}th position".format(verse.find("and")))
 print("The index of the last 'and' can be found in the {}th position".format(verse.rfind("you")))
+
+### Practicing Ordering and Indexing of Data Types
+month = 8
+days_in_month = [31,28,31,30,31,30,31,31,30,31,30,31]
+
+# use list indexing to determine the number of days in month
+
+num_days = days_in_month[month-1]
+print(num_days) 
