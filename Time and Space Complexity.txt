@@ -1,0 +1,27 @@
+1. General Properties : 
+
+     If f(n) is O(g(n)) then a*f(n) is also O(g(n)) ; where a is a constant. 
+
+     Example: f(n) = 2n²+5 is O(n²) 
+     then 7*f(n) = 7(2n²+5) = 14n²+35 is also O(n²) .
+
+     Similarly, this property satisfies both Θ and Ω notation. 
+ 
+
+     We can say 
+     If f(n) is Θ(g(n)) then a*f(n) is also Θ(g(n)) ; where a is a constant. 
+     If f(n) is Ω (g(n)) then a*f(n) is also Ω (g(n)) ; where a is a constant.
+
+2. Transitive Properties : 
+
+    If f(n) is O(g(n)) and g(n) is O(h(n)) then f(n) = O(h(n)) .
+
+    Example: if f(n) = n, g(n) = n² and h(n)=n³
+    n is O(n²) and n² is O(n³)
+    then n is O(n³)
+
+   Similarly, this property satisfies both Θ and Ω notation.
+
+   We can say
+   If f(n) is Θ(g(n)) and g(n) is Θ(h(n)) then f(n) = Θ(h(n)) .
+   If f(n) is Ω (g(n)) and g(n) is Ω (h(n)) then f(n) = Ω (h(n))
