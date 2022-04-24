@@ -48,4 +48,9 @@ print(min([len(a), len(b), len(c)]))
 ### What would be the output of this code
 names = ["Carol", "Albert", "Ben", "Donna"]
 print(" & ".join(sorted(names)))
-#Result Carol & Albert & Ben & Donna
+#Result Albert & Ben & Carol & Donna
+
+### Choose the correct syntax to slice each of the following elements from the list
+arr = ['a', 'b', 'c', 'd', 'e', 'f', 'g']
+
+arr[:2]
