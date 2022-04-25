@@ -64,6 +64,7 @@ print("Longitude:", location[1])
 
 
 ### An Error code that would produce that the key in the dictionary are unhashable because they mutable
+"""
 room_numbers = {
     ['Freddie', 'Jen']: 403,
     ['Ned', 'Keith']: 391,
@@ -72,7 +73,7 @@ room_numbers = {
 }
 
 print(room_numbers)
-
+"""
 
 ### Another Dictionary element
 
