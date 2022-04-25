@@ -54,3 +54,10 @@ print(" & ".join(sorted(names)))
 arr = ['a', 'b', 'c', 'd', 'e', 'f', 'g']
 
 arr[:2]
+
+### Doing Exercise with Turples
+location = (13.4125, 103.866667)
+print("Latitude:", location[0])
+print("Longitude:", location[1])
+
+# The Result to this code is that it would produce 13.4125 for latitude and 103.866667 for longitude
