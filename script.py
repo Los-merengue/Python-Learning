@@ -62,3 +62,13 @@ print("Longitude:", location[1])
 
 # The Result to this code is that it would produce 13.4125 for latitude and 103.866667 for longitude
 
+
+### An Error code that would produce that the key in the dictionary are unhashable because they mutable
+room_numbers = {
+    ['Freddie', 'Jen']: 403,
+    ['Ned', 'Keith']: 391,
+    ['Kristin', 'Jazzmyne']: 411,
+    ['Eugene', 'Zach']: 395
+}
+
+print(room_numbers)
