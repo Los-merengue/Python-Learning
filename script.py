@@ -136,6 +136,8 @@ contains_breathe = 'breathe' in verse_dict
 print(contains_breathe)
 
 # create and sort a list of the dictionary's keys
+keys_list = verse_dict.keys()
+print(keys_list)
 sorted_keys = sorted(verse_dict.keys())
 print(sorted_keys)
 
