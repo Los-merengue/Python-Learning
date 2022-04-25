@@ -33,7 +33,7 @@ print(eclipse_dates)
 ### A Basic Split Method
 
 new_str = "The cow jumped over the moon."
-new_str.split(" ",3)
+print(new_str.split(" ",3))
 
 ### what would this script produce as a result
 a = [1, 5, 8]
