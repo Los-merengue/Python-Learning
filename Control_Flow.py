@@ -16,6 +16,7 @@ print(result)
 
 ### Practise question 2
 
+
 # '''
 # You decide you want to play a game where you are hiding 
 # a number from someone.  Store this number in a variable 
