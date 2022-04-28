@@ -44,3 +44,8 @@ sentence = ["the", "quick", "brown", "fox", "jumped", "over", "the", "lazy", "do
 
 for word in sentence:
     print(word)
+
+# Multiple of 5
+
+for i in range(5, 35, 5):
+    print(i)
