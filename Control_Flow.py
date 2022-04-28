@@ -14,9 +14,7 @@ else:
     
 print(result)
 
-
 ### Practise question 2
-
 
 # '''
 # You decide you want to play a game where you are hiding 
@@ -39,3 +37,10 @@ elif guess == answer: #provide conditional
     result = "Nice!  Your guess matched the answer!"
 
 print(result)
+
+### For Loop Practise 
+# Printing each words in a list
+sentence = ["the", "quick", "brown", "fox", "jumped", "over", "the", "lazy", "dog"]
+
+for word in sentence:
+    print(word)
