@@ -71,3 +71,15 @@ for name in usernames:
     usernames = name.lower().replace(" ", "_")
 
 print(usernames)
+
+### Tag Counter Scripts
+
+tokens = ['<greeting>', 'Hello World!', '</greeting>']
+count = 0
+
+# write your for loop here
+for token in tokens:
+    if ("<" in token) & (">" in token):
+        count+=1
+print("The Number of the Elements of the list are {} and the number of XML tag is {}".format(len(tokens),count))
+print(count)
