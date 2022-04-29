@@ -67,8 +67,8 @@ print(usernames)
 usernames = ["Joey Tribbiani", "Monica Geller", "Chandler Bing", "Phoebe Buffay"]
 
 # write your for loop here
-for name in usernames:
-    usernames = name.lower().replace(" ", "_")
+for name in range(len(usernames)):
+    usernames[name] = usernames[name].lower().replace(" ", "_")
 
 print(usernames)
 
