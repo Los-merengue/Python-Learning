@@ -49,3 +49,15 @@ for word in sentence:
 
 for i in range(5, 35, 5):
     print(i)
+
+
+### For Loop Quiz using it to rewrite the structure of a dictionary
+
+names = ["Joey Tribbiani", "Monica Geller", "Chandler Bing", "Phoebe Buffay"]
+usernames = []
+
+# write your for loop here
+for name in names:
+    usernames.append(name.replace(" ", "_"))
+
+print(usernames)
