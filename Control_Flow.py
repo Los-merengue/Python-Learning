@@ -61,3 +61,13 @@ for name in names:
     usernames.append(name.replace(" ", "_"))
 
 print(usernames)
+
+### Modify the Usernames with Ranges
+
+usernames = ["Joey Tribbiani", "Monica Geller", "Chandler Bing", "Phoebe Buffay"]
+
+# write your for loop here
+for name in usernames:
+    usernames = name.lower().replace(" ", "_")
+
+print(usernames)
