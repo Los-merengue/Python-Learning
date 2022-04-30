@@ -122,4 +122,7 @@ for word in book_title:
 print(word_counter)
 
 ### Adding a Word Counter using the 'get' method
-book_title =  ['great', 'expectations','the', 'adventures', 'of', 'sherlock','holmes','the','great','gasby','hamlet','adventures','of','huckleberry','fin']
+book_title =  ['great', 'expectations','the', 'adventures', 'of', \
+     'sherlock','holmes','the','great','gasby','hamlet','adventures','of','huckleberry','fin']
+
+word_counter = {}
