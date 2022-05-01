@@ -112,7 +112,7 @@ print("The lowercase of the string is gien as {}".format(lower_colors))
 ### Building Dictionaries
 
 book_title =  ['Great', 'Expectations','The', 'Adventures', 'of', \
-    'Sherlock','holmes','the','great','gasby','hamlet','adventures','of','huckleberry','fin']
+    'Sherlock','Holmes','the','great','gasby','hamlet','adventures','of','huckleberry','fin']
 word_counter = {}
 for word in book_title:
     if word not in word_counter:
