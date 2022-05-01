@@ -128,5 +128,4 @@ book_title =  ['great', 'expectations','the', 'adventures', 'of', \
 words_counter = {}
 for word in book_title:
     words_counter[word] = words_counter.get(word, 0) + 1
-
 print(words_counter)
