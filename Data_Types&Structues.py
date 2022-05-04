@@ -159,4 +159,6 @@ cast = {
            "Jason Alexander": "George Costanza",
            "Michael Richards": "Cosmo Kramer"
        }
-       
+
+for keys in cast:
+    print(keys)
