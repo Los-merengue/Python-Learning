@@ -153,3 +153,10 @@ print(sorted_keys[-1])
 # are usually the keys, to obtain the key and values, you
 # use the item method to bring it out
 
+cast = {
+           "Jerry Seinfeld": "Jerry Seinfeld",
+           "Julia Louis-Dreyfus": "Elaine Benes",
+           "Jason Alexander": "George Costanza",
+           "Michael Richards": "Cosmo Kramer"
+       }
+       
