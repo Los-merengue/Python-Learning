@@ -166,4 +166,4 @@ for keys in cast:
 print("\n Iterating through the Dictionary for the keys and  the values")
 
 for keys,values in cast.items():
-    print ("Actor: {}  Role:{} ".format(keys, values))
+    print ("Actor: {}  Role: {} ".format(keys, values))
