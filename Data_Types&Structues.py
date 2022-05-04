@@ -147,3 +147,9 @@ print(sorted_keys[0])
 
 # find the element with the highest value in the list of keys
 print(sorted_keys[-1])
+
+### Using for loop to iterate through a dictionary
+# whenever you iterate through a dictionary, the outputs
+# are usually the keys, to obtain the key and values, you
+# use the item method to bring it out
+
