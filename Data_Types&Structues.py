@@ -167,3 +167,20 @@ print("\n Iterating through the Dictionary for the keys and  the values")
 
 for keys,values in cast.items():
     print ("Actor: {}  Roles: {} ".format(keys, values))
+
+### Fruit-Basket Task
+# You would like to count the number of fruits in your basket. 
+# In order to do this, you have the following dictionary and list of
+# fruits.  Use the dictionary and list to count the total number
+# of fruits, but you do not want to count the other items in your basket.
+
+result = 0
+basket_items = {'apples': 4, 'oranges': 19, 'kites': 3, 'sandwiches': 8}
+fruits = ['apples', 'oranges', 'pears', 'peaches', 'grapes', 'bananas']
+
+#Solution of the problem
+for key, values in basket_items.items():
+    if key in fruits:
+        result += int(values)
+
+print(result)
