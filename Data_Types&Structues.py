@@ -286,3 +286,15 @@ for key, values in basket_items.items():
 print(result)
 
 
+#Example 3
+
+result = 0
+basket_items = {'lettuce': 2, 'kites': 3, 'sandwiches': 8, 'pears': 4, 'bears': 10}
+fruits = ['apples', 'oranges', 'pears', 'peaches', 'grapes', 'bananas']
+
+# Your previous solution here
+for key, values in basket_items.items():
+    if key in fruits:
+        result += int(values)
+
+print(result)
