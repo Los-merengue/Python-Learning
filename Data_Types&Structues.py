@@ -247,7 +247,6 @@ image5 = [
 print(find_rectangle(image5)) # (0,0)
 
 
-
 def first_zero(image1):
     for i in range(0,len(image1)):
         if (image1[i]) == 0:
