@@ -257,3 +257,18 @@ def get_width(image1):
         if (image1[i]) == 0:
             result += 1
     return (result)
+
+
+#Example 1
+
+result = 0
+basket_items = {'pears': 5, 'grapes': 19, 'kites': 3, 'sandwiches': 8, 'bananas': 4}
+fruits = ['apples', 'oranges', 'pears', 'peaches', 'grapes', 'bananas']
+
+# Your previous solution here
+for key, values in basket_items.items():
+    if key in fruits:
+        result += int(values)
+
+print(result)
+
