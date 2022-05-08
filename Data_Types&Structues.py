@@ -186,17 +186,22 @@ for key, values in basket_items.items():
 print(result)
 
 '''
-Our sensor technology has received a major upgrade, and now provides two-dimensional images using nested arrays.
+Our sensor technology has received a major upgrade, and now 
+provides two-dimensional images using nested arrays.
 
 - Every pixel is still a 1 or a 0.
-- The image will contain exactly one rectangle of 0s on a background of 1s.
+- The image will contain exactly one rectangle of 0s on a 
+  background of 1s.
 - We consider the top left corner to be 0,0
 
-Write a function that takes the image as input and returns the row and column indices of the rectangle's top-left corner.
+Write a function that takes the image as input and returns 
+the row and column indices of the rectangle's top-left corner.
 
-You can choose to reuse or modify first_zero or get_width, or start over.
+You can choose to reuse or modify first_zero or get_width, 
+or start over.
 
-For complexity analysis, the dimensions of the input are width(w) and height(h)
+For complexity analysis, the dimensions of the input are 
+width(w) and height(h)
 '''
 
 def find_rectangle(image):
