@@ -321,3 +321,8 @@ for keys, values in basket_items.items():
         not_fruit_count += values
 
 #if the key is in the list of fruits, add to fruit_count.
+
+#if the key is not in the list, then add to the not_fruit_count
+
+
+print(fruit_count, not_fruit_count)
