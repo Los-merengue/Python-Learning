@@ -303,3 +303,8 @@ for key, values in basket_items.items():
         result += int(values)
 
 print(result)
+
+# You would like to count the number of fruits in your basket. 
+# In order to do this, you have the following dictionary and list of
+# fruits.  Use the dictionary and list to count the total number
+# of fruits and not_fruits.
