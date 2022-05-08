@@ -312,3 +312,10 @@ print(result)
 fruit_count, not_fruit_count = 0, 0
 basket_items = {'apples': 4, 'oranges': 19, 'kites': 3, 'sandwiches': 8}
 fruits = ['apples', 'oranges', 'pears', 'peaches', 'grapes', 'bananas']
+
+#Iterate through the dictionary
+for keys, values in basket_items.items():
+    if keys in fruits:
+        fruit_count += values
+    if keys not in fruits:
+        not_fruit_count += values
