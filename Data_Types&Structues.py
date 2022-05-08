@@ -315,14 +315,15 @@ fruits = ['apples', 'oranges', 'pears', 'peaches', 'grapes', 'bananas']
 
 #Iterate through the dictionary
 for keys, values in basket_items.items():
+#if the key is in the list of fruits, add to fruit_count.
     if keys in fruits:
         fruit_count += values
+#if the key is not in the list, then add to the not_fruit_count
     if keys not in fruits:
         not_fruit_count += values
 
-#if the key is in the list of fruits, add to fruit_count.
 
-#if the key is not in the list, then add to the not_fruit_count
+
 
 
 print(fruit_count, not_fruit_count)
