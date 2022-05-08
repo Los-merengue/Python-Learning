@@ -308,3 +308,7 @@ print(result)
 # In order to do this, you have the following dictionary and list of
 # fruits.  Use the dictionary and list to count the total number
 # of fruits and not_fruits.
+
+fruit_count, not_fruit_count = 0, 0
+basket_items = {'apples': 4, 'oranges': 19, 'kites': 3, 'sandwiches': 8}
+fruits = ['apples', 'oranges', 'pears', 'peaches', 'grapes', 'bananas']
