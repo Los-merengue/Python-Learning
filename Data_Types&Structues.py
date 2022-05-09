@@ -322,4 +322,5 @@ for keys, values in basket_items.items():
     if keys not in fruits:
         not_fruit_count += values
 
-print("The number of fruits is {}.  There are {} objects that are not fruits.".format(fruit_count, not_fruit_count))
+print("The number of fruits is {}.  There are {} objects \
+     that are not fruits.".format(fruit_count, not_fruit_count))
