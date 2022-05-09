@@ -361,6 +361,5 @@ for i in range(1,7):
     product = (product * i)
 
 
-
 # print the factorial of number
 print(product)
