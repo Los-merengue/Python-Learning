@@ -357,8 +357,8 @@ number = 6
 product = 1
 
 # write your for loop here
-for i in range(1,7):
-    product = (product * i)
+for num in range(2, number + 1):
+    product *= num
 
 
 # print the factorial of number
