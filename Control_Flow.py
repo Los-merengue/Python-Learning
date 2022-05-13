@@ -132,6 +132,148 @@ for word in book_title:
 
 print(words_counter)
 
+#Example 1
+
+result = 0
+basket_items = {'pears': 5, 'grapes': 19, 'kites': 3, 'sandwiches': 8, 'bananas': 4}
+fruits = ['apples', 'oranges', 'pears', 'peaches', 'grapes', 'bananas']
+
+# Your previous solution here
+for key, values in basket_items.items():
+    if key in fruits:
+        result += int(values)
+
+print(result)
+
+#Example 2
+
+result = 0
+basket_items = {'peaches': 5, 'lettuce': 2, 'kites': 3, 'sandwiches': 8, 'pears': 4}
+fruits = ['apples', 'oranges', 'pears', 'peaches', 'grapes', 'bananas']
+
+# Your previous solution here
+for key, values in basket_items.items():
+    if key in fruits:
+        result += int(values)
+
+print(result)
+
+
+#Example 3
+
+result = 0
+basket_items = {'lettuce': 2, 'kites': 3, 'sandwiches': 8, 'pears': 4, 'bears': 10}
+fruits = ['apples', 'oranges', 'pears', 'peaches', 'grapes', 'bananas']
+
+# Your previous solution here
+for key, values in basket_items.items():
+    if key in fruits:
+        result += int(values)
+
+print(result)
+
+# You would like to count the number of fruits in your basket. 
+# In order to do this, you have the following dictionary and list of
+# fruits.  Use the dictionary and list to count the total number
+# of fruits and not_fruits.
+
+fruit_count, not_fruit_count = 0, 0
+basket_items = {'apples': 4, 'oranges': 19, 'kites': 3, 'sandwiches': 8}
+fruits = ['apples', 'oranges', 'pears', 'peaches', 'grapes', 'bananas']
+
+#Iterate through the dictionary
+for keys, values in basket_items.items():
+#if the key is in the list of fruits, add to fruit_count.
+    if keys in fruits:
+        fruit_count += values
+#if the key is not in the list, then add to the not_fruit_count
+    if keys not in fruits:
+        not_fruit_count += values
+
+print("The number of fruits is {}.  There are {} objects \
+     that are not fruits.".format(fruit_count, not_fruit_count))
+
+
+# number to find the factorial of
+number = 6   
+
+# start with our product equal to one
+product = 1
+
+# track the current number being multiplied
+current = 1
+
+# write your while loop here
+while current <= 6:
+    
+    # multiply the product so far by the current number
+    product *= current
+    
+    # increment current with each iteration until it reaches number
+    current += 1
+
+
+# print the factorial of number
+print(product)
+
+### Factorial Question Using For Loop
+
+# number to find the factorial of
+number = 6   
+
+# start with our product equal to one
+product = 1
+
+# write your for loop here
+for num in range(2, number + 1):
+    product *= num
+
+
+# print the factorial of number
+print(product)
+
+## Count By Quiz
+
+start_num = 5
+end_num = 100
+count_by = 2
+
+break_num = start_num
+while break_num < end_num:
+    break_num += count_by
+
+print(break_num)
+
+### Count By Check Quiz
+
+start_num = 5
+end_num = 100
+count_by = 2
+
+if start_num > end_num:
+    result = "Oops! Looks like your start value is greater than the end value. Please try again."
+
+else:
+    break_num = start_num
+    while break_num < end_num:
+        break_num += count_by
+
+    result = break_num
+
+print(result)
+
+### Nearest Square Quiz 
+
+limit = 40
+
+num = 0
+while (num+1)**2 < limit:
+    num += 1
+nearest_square = num**2
+
+print(nearest_square)
+
+
 ### Odd Number Count using Whiel Loop
 num_list = [422, 136, 524, 85, 96, 719, 85, 92, 10, \
     17, 312, 542, 87, 23, 86, 191, 116, 35, 173, 45, 149, \
