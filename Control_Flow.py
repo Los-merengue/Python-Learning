@@ -274,7 +274,7 @@ nearest_square = num**2
 print(nearest_square)
 
 
-### Odd Number Count using Whiel Loop
+### Odd Number Count using While Loop
 num_list = [422, 136, 524, 85, 96, 719, 85, 92, 10, \
     17, 312, 542, 87, 23, 86, 191, 116, 35, 173, 45, 149, \
         59, 84, 69, 113, 166]
