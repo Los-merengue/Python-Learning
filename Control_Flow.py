@@ -292,3 +292,26 @@ while (count_odd < 5) and (i < len_num_list):
 
 print ("The numbers of odd numbers added are: {}".format(count_odd))
 print ("The sum of the odd numbers added is: {}".format(list_sum))
+
+'''
+Using a Break Statement when you are running a code for Cargo ships
+the loading of the goods in the ship
+'''
+manifest = [("bananas", 15), ("mattresses", 24), ("dog kennels", 42), ("machine", 120), ("cheeses", 5)]
+
+# the code breaks the loop when weight exceeds or reaches the limit
+print("METHOD 1")
+weight = 0
+items = []
+for cargo_name, cargo_weight in manifest:
+    print("current weight: {}".format(weight))
+    if weight >= 100:
+        print("  breaking loop now!")
+        break
+    else:
+        print("  adding {} ({})".format(cargo_name, cargo_weight))
+        items.append(cargo_name)
+        weight += cargo_weight
+
+print("\nFinal Weight: {}".format(weight))
+print("Final Items: {}".format(items))
