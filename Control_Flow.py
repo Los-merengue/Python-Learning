@@ -292,4 +292,3 @@ while (count_odd < 5) and (i < len_num_list):
 
 print ("The numbers of odd numbers added are: {}".format(count_odd))
 print ("The sum of the odd numbers added is: {}".format(list_sum))
-
