@@ -357,3 +357,8 @@ for headline in headlines:
         break
 
 print(news_ticker)
+
+'''
+In the following coding environment, write code to check if the 
+numbers provided in the list check_prime are prime numbers.
+'''
