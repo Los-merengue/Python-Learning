@@ -453,3 +453,14 @@ scores = {
 
 passed = [name for name, score in scores.items() if score > 65] # write your list comprehension here
 print(passed)
+
+'''
+The following questions are based on data on Oscar Award 
+Nominations for Best Director between the years 1931 to 
+2010. To start you off, we've provided a dictionary called 
+"nominated" with the year (as key) and list of directors who 
+were nominated in that year (as value). We've provided you 
+with a different dictionary called "winners" with the year 
+(as key) and list of directors who won the award in that year 
+(as value).
+'''
