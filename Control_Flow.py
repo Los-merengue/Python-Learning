@@ -439,3 +439,17 @@ Multiple of Three using List Comprehension
 multiples_3 =[ 3*x for x in range(1,200) if x <= 20] 
 
 print(multiples_3)
+
+'''
+Using List Comprehension to filter name by scores
+'''
+scores = {
+             "Rick Sanchez": 70,
+             "Morty Smith": 35,
+             "Summer Smith": 82,
+             "Jerry Smith": 23,
+             "Beth Smith": 98
+          }
+
+passed = [name for name, score in scores.items() if score > 65] # write your list comprehension here
+print(passed)
