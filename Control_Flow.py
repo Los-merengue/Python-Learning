@@ -534,3 +534,7 @@ for key, value in win_count_dict.items():
         most_win_director.append(key)
     else:
         continue
+#ALTERNATIVE SECOND PART OF SOLUTION
+highest_count = max(win_count_dict.values())
+
+most_win_director = [key for key, value in win_count_dict.items() if value == highest_count]
