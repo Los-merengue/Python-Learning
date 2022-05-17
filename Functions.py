@@ -8,3 +8,5 @@ and experiment to understand the difference.
 # this prints something, but does not return anything
 def show_plus_ten(num):
     print(num + 10)
+
+show_plus_ten(5)
