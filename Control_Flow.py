@@ -481,3 +481,9 @@ for year, list_dir in nominated.items():
             nom_count_dict[director] = 1
         else:
             nom_count_dict[director] += 1
+
+# The Code for Question 1B
+win_count_dict = {}
+for year, winnerlist in winners.items():
+    for winner in winnerlist:
+        win_count_dict[winner] = win_count_dict.get(winner, 0) + 1
