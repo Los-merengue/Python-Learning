@@ -415,3 +415,11 @@ cast = (("Barney", 72), ("Robin", 68), ("Ted", 72), ("Lily", 66), ("Marshall", 7
 names, heights = zip(*cast)
 print(names)
 print(heights)
+
+'''
+Transpose with Zip
+'''
+data = ((0, 1, 2), (3, 4, 5), (6, 7, 8), (9, 10, 11))
+
+data_transpose = tuple(zip(*data))
+print(data_transpose)
