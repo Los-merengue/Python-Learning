@@ -431,3 +431,11 @@ names = ["Rick Sanchez", "Morty Smith", "Summer Smith", "Jerry Smith", "Beth Smi
 
 first_names = [name.split()[0].lower() for name in names] # write your list comprehension here
 print(first_names)
+
+'''
+Multiple of Three using List Comprehension
+'''
+# write your list comprehension here
+multiples_3 =[ 3*x for x in range(1,200) if x <= 20] 
+
+print(multiples_3)
