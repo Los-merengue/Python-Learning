@@ -382,3 +382,7 @@ for num in check_prime:
 # factors, and then declare it prime
         if i == num -1:    
             print("{} IS a prime number".format(num))
+
+'''
+Using Zip and Enumerate to run your code
+'''
