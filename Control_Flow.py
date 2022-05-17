@@ -464,3 +464,20 @@ with a different dictionary called "winners" with the year
 (as key) and list of directors who won the award in that year 
 (as value).
 '''
+
+'''
+Question 1.
+A. Create a dictionary that includes the count of Oscar nominations
+ for each director in the nominations list.
+
+B. Provide a dictionary with the count of Oscar wins for each 
+director in the winners list.
+'''
+# The Code for Question 1A
+nom_count_dict = {}
+for year, list_dir in nominated.items():
+    for director in list_dir:
+        if director not in nom_count_dict:
+            nom_count_dict[director] = 1
+        else:
+            nom_count_dict[director] += 1
