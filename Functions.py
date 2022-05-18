@@ -25,3 +25,27 @@ def cylinder_volume(height, radius=5):
 '''
 Population Density Function
 '''
+def population_density(population, land_area):
+    """This is a function for Population density
+    
+    INPUT
+    population (int,float): This is the value of the population
+    land_area (int, float): This is the value of the land_area
+
+    OUTPUT
+    answer (int, float): The  answer to this function is the 
+                        dividend of population by land_area
+    """
+    answer = population/land_area
+    return answer
+
+
+
+# test cases for your function
+test1 = population_density(10, 1)
+expected_result1 = 10
+print("expected result: {}, actual result: {}".format(expected_result1, test1))
+
+test2 = population_density(864816, 121.4)
+expected_result2 = 7123.6902801
+print("expected result: {}, actual result: {}".format(expected_result2, test2))
