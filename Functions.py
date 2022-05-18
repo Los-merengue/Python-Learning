@@ -51,3 +51,16 @@ print("expected result: {}, actual result: {}".format(expected_result2, test2))
 '''
 A function for Readable_timedelta
 '''
+def readable_timedelta(day):
+    """This is a Readable_timedelta function, it takes one argument
+    which is days and return the number of weeks and days from the 
+    argument
+    """
+    week = day // 7
+    days = day % 7
+    result = "{} week(s) and {} day(s)".format(week,days)
+    return result
+    
+
+# test your function
+print(readable_timedelta(7))
