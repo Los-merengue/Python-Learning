@@ -96,3 +96,10 @@ def readable_timedelta(days):
     weeks = days // 7
     remainder = days % 7
     return "{} week(s) and {} day(s)".format(weeks, remainder)
+
+'''
+Writing Lambda i.e. Functions that dont have a name
+'''
+multiply = lambda x, y: x * y
+
+multiply(10,7)
