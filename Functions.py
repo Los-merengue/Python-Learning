@@ -9,4 +9,11 @@ and experiment to understand the difference.
 def show_plus_ten(num):
     print(num + 10)
 
-show_plus_ten(5)
+
+# this returns something
+def add_ten(num):
+    return(num + 10)
+
+'''
+Default Arguments of Functions
+'''
