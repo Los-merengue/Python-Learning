@@ -39,8 +39,6 @@ def population_density(population, land_area):
     answer = population/land_area
     return answer
 
-
-
 # test cases for your function
 test1 = population_density(10, 1)
 expected_result1 = 10
