@@ -63,3 +63,7 @@ def readable_timedelta(day):
     
 # test your function
 print(readable_timedelta(7))
+
+'''
+Documenting a Function using Docstring
+'''
