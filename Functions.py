@@ -117,3 +117,11 @@ numbers = [
 
 averages = list(map(lambda num_list: sum(num_list) / len(num_list), numbers))
 print(averages)
+
+# Lambda Functions with Filter
+
+cities = ["New York City", "Los Angeles", "Chicago", "Mountain View", "Denver", "Boston"]
+
+
+short_cities = list(filter(lambda name: len(name) < 10, cities))
+print(short_cities)
