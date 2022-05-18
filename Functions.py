@@ -61,6 +61,5 @@ def readable_timedelta(day):
     result = "{} week(s) and {} day(s)".format(week,days)
     return result
     
-
 # test your function
 print(readable_timedelta(7))
