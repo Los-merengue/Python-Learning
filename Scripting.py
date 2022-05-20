@@ -13,3 +13,6 @@ Welcome to Python3!
 """
 
 print (snake_string * how_many_snakes)
+
+name = input("Enter your name: ")
+print("Hello there, {}!".format(name.title()))
