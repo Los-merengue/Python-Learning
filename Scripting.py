@@ -45,7 +45,6 @@ def party_planner(cookies, people):
 
     return(num_each, leftovers)
 
-
 # The main code block is below; do not edit this
 lets_party = 'y'
 while lets_party == 'y':
