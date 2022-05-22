@@ -42,7 +42,7 @@ def party_planner(cookies, people):
 
     num_each = cookies // people
     leftovers = cookies % people
-
+# This would return both variable for the script
     return(num_each, leftovers)
 
 # The main code block is below; do not edit this
