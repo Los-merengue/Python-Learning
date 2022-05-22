@@ -58,4 +58,4 @@ while lets_party == 'y':
         message = "\nLet's party! We'll have {} people attending, they'll each get to eat {} cookies, and we'll have {} left over."
         print(message.format(people, cookies_each, leftovers))
 
-    lets_party = input("\nWould you like to party more? (y or n) ")
+    lets_party = input("\n Would you like to party more? (y or n) ")
