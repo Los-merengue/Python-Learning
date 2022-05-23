@@ -95,7 +95,10 @@ for i in range(10):
 # check to see if number is even and if yes, add to list_sum
 # print incorrect value warning  when ValueError exception occurs
     try:
-        number = userInput
+# To correct the code, the bug message was typeError which implies
+# A different data type been inputed in the program, we would add 
+# int to the code
+        number = int(userInput)
         user_list.append(number)
         if number % 2 == 0:
             list_sum += number
