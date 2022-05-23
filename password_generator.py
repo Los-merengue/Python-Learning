@@ -22,6 +22,5 @@ def generate_password():
     return random.choice(word_list) + random.choice(word_list) + random.choice(word_list)
 
 
-
 # Now we test the function
 print(generate_password())
