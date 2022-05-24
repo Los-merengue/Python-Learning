@@ -25,7 +25,8 @@ def main():
     full_name = input("Enter your First [space] Last name only: ")
     first_name = full_name[0].lower()
     first_letter = first_name[0]
-# print command that prints final input with value from corresponding key in dictionary
+# print command that prints final input with value from 
+# corresponding key in dictionary
     print("Unique flower name with the first letter: {}".format(flower_d[first_letter]))
 
 main()
