@@ -18,7 +18,6 @@ def create_flowerdict(filename):
             flower_dict[letter] = flower
     return flower_dict
 
-
 # Main function that prompts for user input, parses out the 
 # first letter
 # Includes function call for create_flowerdict to create dictionary
